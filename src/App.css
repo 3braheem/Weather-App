@@ -28,11 +28,43 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-image: url(../public/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-family: Inter, sans-serif;
+  width: 556px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  height: 223px;
+  width: 592px;
+  margin: auto;
+  background: radial-gradient(
+    94.51% 639.62% at 3.18% 7.89%,
+    rgba(255, 255, 255, 0.49) 0%,
+    rgba(255, 255, 255, 0.07) 100%
+  );
+  background-blend-mode: overlay;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  backdrop-filter: blur(36px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 40px;
+}
+
+.forecastOption {
+  justify-items: left;
+}
+
+.search {
+  width: 432px;
 }
