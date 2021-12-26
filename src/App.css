@@ -33,6 +33,10 @@ h1 {
   width: 556px;
 }
 
+h2 {
+  font-family: Work Sans, sans-serif;
+}
+
 .box {
   display: flex;
   flex-direction: column;
